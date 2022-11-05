@@ -27,7 +27,6 @@ const Search = (props) => {
   }
 
   const booksInSearch = searchedBooks?.map((book) => {
-    console.log(book);
     return (
       <Book
         key={book.id}

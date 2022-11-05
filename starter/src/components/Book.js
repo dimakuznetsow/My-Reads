@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Book = (props) => {
-  const [shelfName, setShelfName] = useState(props.shelf);
+  const [shelfName, setShelfName] = useState(props.shelf || "none");
 
   return (
     <li>
